@@ -1,0 +1,12 @@
+<script src="{{ asset('lend-bit.dev/public/js/util.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/tracking.min.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/smoothscroll.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/scrollmagic.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js_composer_front.min.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/jquery.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/jquery-migrate.min.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/fb.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/customjs.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/custom_woo_js.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/5542880.js')}}"></script>
+<script src="{{ asset('lend-bit.dev/public/js/zebra_tooltips.js')}}"></script>
