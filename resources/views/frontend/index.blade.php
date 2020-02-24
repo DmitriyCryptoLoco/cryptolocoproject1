@@ -142,7 +142,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="vc_row wpb_row vc_row-fluid vc_custom_1573756267800 full-width-section " style="margin-left: -467.5px; padding-left: 467.5px; padding-right: 467.5px; visibility: visible; width: 100%; margin-right: 0px;">
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1573756267800 full-width-section "
+                     style="margin-left: -467.5px; padding-left: 467.5px; padding-right: 467.5px; visibility: visible; width: 100%; margin-right: 0px;">
                     <div class="vc_span12 wpb_column vc_column_container ">
                         <div class="vc_column-inner ">
                             <div class="wpb_wrapper">
@@ -154,7 +155,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="vc_row wpb_row vc_row-fluid gradient-block blue-right vc_custom_1575486669630 full-width-content " style="margin-left: -466.5px; padding-left: 0px; padding-right: 0px; visibility: visible; width: 1903px; margin-right: 0px;">
+                <div class="vc_row wpb_row vc_row-fluid gradient-block blue-right vc_custom_1575486669630 full-width-content "
+                     style="margin-left: -466.5px; padding-left: 0px; padding-right: 0px; visibility: visible; width: 1903px; margin-right: 0px;">
                     <div class="vc_span9 int-loans-box wpb_column vc_column_container " style="height: auto;">
                         <div class="vc_column-inner vc_custom_1573753601241">
                             <div class="wpb_wrapper">

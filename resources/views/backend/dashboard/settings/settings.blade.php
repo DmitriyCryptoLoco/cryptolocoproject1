@@ -12,9 +12,30 @@
         </ul>
     </div>
     <div class="separator-breadcrumb border-top">
-        <p></p>
+        <p>Page of Settings</p>
     </div>
+    <h2>Profile</h2>
 
+    <form action="">
+        <ul>
+            <li><input type="text" value="">1</li>
+            <li><input type="text" value="">2</li>
+            <li><input type="text" value="">3</li>
+            <li><input type="text" value="">4</li>
+            <li><input type="text" value="">5</li>
+            <li><input type="text" value="">6</li>
+            <li><input type="text" value="">7</li>
+            <li><input type="text" value="">8</li>
+            <li><input type="text" value="">9</li>
+            <li><input type="text" value="">10</li>
+            <li><input type="text" value="">11</li>
+            <li><input type="text" value="">12</li>
+        </ul>
+    </form>
+
+    <h2>Profile</h2>
+
+    <form action=""></form>
     <div class="row">
         <div class="col-md-12">
             <p>Page Of Settings </p>

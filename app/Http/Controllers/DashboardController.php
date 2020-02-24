@@ -14,6 +14,7 @@ class DashboardController extends Controller
     public function __construct()
     {
 //        $this->middleware('auth');
+//        $this->middleware('rules');
     }
 
     /**
@@ -34,17 +35,17 @@ class DashboardController extends Controller
 
     public function interest()
     {
-        return view('backend.dashboard.interest');
+        return view('backend.dashboard.dashboard.interest');
     }
 
     public function cryptoloans()
     {
-        return view('backend.dashboard.cryptoloans');
+        return view('backend.dashboard.dashboard.cryptoloans');
     }
 
     public function filesmanager()
     {
-        return view('backend.dashboard.files-manager');
+        return view('backend.dashboard.dashboard.files-manager');
     }
 
     public function chat()
@@ -54,6 +55,6 @@ class DashboardController extends Controller
 
     public function settings()
     {
-        return view('backend.dashboard.settings');
+        return view('backend.dashboard.settings.settings');
     }
 }

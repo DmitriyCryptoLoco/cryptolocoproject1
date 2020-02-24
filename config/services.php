@@ -30,6 +30,11 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'chatkit' => [
+        'secret' => env('CHATKIT_SECRET_KEY'),
+        'locator' => env('CHATKIT_INSTANCE_LOCATOR'),
+    ],
+
     'stripe' => [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY'),

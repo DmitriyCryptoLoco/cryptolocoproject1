@@ -10,8 +10,7 @@
                         <i class="icon-regular ml-0 mr-3 i-Left"></i>
                     </a>
                     <div class="form-group m-0 flex-grow-1">
-                        <input type="text" class="form-control form-control-rounded" id="search"
-                               placeholder="Search contacts">
+                        <input type="text" class="form-control form-control-rounded" id="search" placeholder="Search contacts">
                     </div>
                 </div>
                 <div class="contacts-scrollable perfect-scrollbar">
@@ -27,14 +26,6 @@
 
                     <div class="mt-3 pb-2 pl-3 pr-3 font-weight-bold text-muted border-bottom">Contacts</div>
                     <div class="p-3 d-flex border-bottom align-items-center contact online">
-                        <img src="{{asset('assets/images/faces/3.jpg')}}" alt="" class="avatar-sm rounded-circle mr-3">
-                        <h6 class="">Jhone Will</h6>
-                    </div>
-                    <div class="p-3 d-flex border-bottom align-items-center contact online">
-                        <img src="{{asset('assets/images/faces/3.jpg')}}" alt="" class="avatar-sm rounded-circle mr-3">
-                        <h6 class="">Jhone Will</h6>
-                    </div>
-                    <div class="p-3 d-flex border-bottom align-items-center contact">
                         <img src="{{asset('assets/images/faces/3.jpg')}}" alt="" class="avatar-sm rounded-circle mr-3">
                         <h6 class="">Jhone Will</h6>
                     </div>
@@ -64,38 +55,6 @@
                     </div>
                     <img src="{{asset('assets/images/faces/13.jpg')}}" alt="" class="avatar-sm rounded-circle ml-3">
                 </div>
-
-                <div class="d-flex mb-4 user">
-                    <img src="{{asset('assets/images/faces/1.jpg')}}" alt="" class="avatar-sm rounded-circle mr-3">
-                    <div class="message flex-grow-1">
-                        <div class="d-flex">
-                            <p class="mb-1 text-title text-16 flex-grow-1">Jhon Doe</p>
-                            <span class="text-small text-muted">24 min ago</span>
-                        </div>
-                        <p class="m-0">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <div class="message flex-grow-1">
-                        <div class="d-flex">
-                            <p class="mb-1 text-title text-16 flex-grow-1">Frank Powell</p>
-                            <span class="text-small text-muted">25 min ago</span>
-                        </div>
-                        <p class="m-0">Do you ever find yourself falling into the “discount trap?</p>
-                    </div>
-                    <img src="{{asset('assets/images/faces/13.jpg')}}" alt="" class="avatar-sm rounded-circle ml-3">
-                </div>
-                <div class="d-flex mb-4 user">
-                    <img src="{{asset('assets/images/faces/1.jpg')}}" alt="" class="avatar-sm rounded-circle mr-3">
-                    <div class="message flex-grow-1">
-                        <div class="d-flex">
-                            <p class="mb-1 text-title text-16 flex-grow-1">Jhon Doe</p>
-                            <span class="text-small text-muted">24 min ago</span>
-                        </div>
-                        <p class="m-0">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-
             </div>
 
             <div class="pl-3 pr-3 pt-3 pb-3 box-shadow-1 chat-input-area">

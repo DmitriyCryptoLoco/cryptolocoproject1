@@ -2,7 +2,8 @@
 
 namespace App;
 
-class UserWallet  {
+class UserWallet
+{
 
     /**
      * The attributes that are mass assignable.
@@ -10,19 +11,21 @@ class UserWallet  {
      * @var array
      */
     protected $fillable = [
-        'email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
+        'Email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
     ];
 
     /**
      * @var array
      */
+
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
+
     protected $hidden = [
-        'email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
+        'Email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
     ];
 
     public function Withdraw($role)

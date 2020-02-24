@@ -52,6 +52,12 @@ class ChatsController extends Controller
      * @param  Request $request
      * @return Response
      */
+
+    public function login()
+    {
+        return view('backend.dashboard.dashboard');
+    }
+
     public function sendMessage(Request $request)
     {
         $user = Auth::user();
@@ -63,6 +69,11 @@ class ChatsController extends Controller
         broadcast(new MessageSent($user, $message))->toOthers();
 
         return ['status' => 'Message Sent!'];
+    }
+
+    public function __destruct()
+    {
+        //        $this->middleware('auth');
     }
 
 }
