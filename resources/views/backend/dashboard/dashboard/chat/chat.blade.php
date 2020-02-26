@@ -10,7 +10,8 @@
                         <i class="icon-regular ml-0 mr-3 i-Left"></i>
                     </a>
                     <div class="form-group m-0 flex-grow-1">
-                        <input type="text" class="form-control form-control-rounded" id="search" placeholder="Search contacts">
+                        <input type="text" class="form-control form-control-rounded" id="search"
+                               placeholder="Search contacts">
                     </div>
                 </div>
                 <div class="contacts-scrollable perfect-scrollbar">
@@ -43,6 +44,8 @@
                     <p class="m-0 text-title text-16 flex-grow-1">Frank Powell</p>
                 </div>
             </div>
+
+            {{--$this>hasmany--}}
 
             <div class="chat-content perfect-scrollbar" data-suppress-scroll-x="true">
                 <div class="d-flex mb-4">

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class ChatkitController extends Controller {
-    
+
     private $chatkit;
     private $roomId;
 
@@ -150,6 +150,7 @@ class ChatkitController extends Controller {
      * @param  \Illuminate\Http\Request $request
      * @return mixed
      */
+    
     public function logout(Request $request)
     {
         $request->session()->flush();

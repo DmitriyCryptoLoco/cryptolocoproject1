@@ -11,7 +11,7 @@ class UserWallet
      * @var array
      */
     protected $fillable = [
-        'Email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
+        'Id', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
     ];
 
     /**
@@ -25,7 +25,7 @@ class UserWallet
      */
 
     protected $hidden = [
-        'Email', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
+        'Id', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
     ];
 
     public function Withdraw($role)

@@ -1,11 +1,9 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class RegisterPagesController extends Controller
-{
+class RegisterPagesController extends Controller {
     /**
      * Create a new controller instance.
      *

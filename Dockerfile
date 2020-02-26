@@ -25,7 +25,7 @@ services:
     image: nginx:alpine
     container_name: webserver
     restart: unless-stopped
-    tty: true
+    tty: true'instance_locator'
     ports:
       - "80:80"
       - "443:443"
@@ -58,6 +58,7 @@ services:
 networks:
   app-network:
     driver: bridge
+
 #Volumes
 volumes:
   dbdata:
