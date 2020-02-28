@@ -41,6 +41,13 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+
+$app->singleton(CheckUserRole::class, function (Application $app) {
+    return new CheckUserRole(
+        $app->make(RoleChecker::class)
+    );
+});
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

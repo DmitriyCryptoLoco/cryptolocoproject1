@@ -15,7 +15,8 @@ class CheckUserRole
 {
     /**
      * @var RoleChecker
-     */
+     **/
+
     protected $roleChecker;
 
     public function __construct(RoleChecker $roleChecker)

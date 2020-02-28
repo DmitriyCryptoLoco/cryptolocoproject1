@@ -27,10 +27,8 @@
     <link rel="dns-prefetch" href="https://maps.googleapis.com/">
     <link rel="dns-prefetch" href="https://js.hs-scripts.com/">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-
     <link rel="alternate" type="application/rss+xml" title="Crypto Interest Accounts | Crypto Backed Loans » Feed" href="feed/">
     <link rel="alternate" type="application/rss+xml" title="Crypto Interest Accounts | Crypto Backed Loans » Comments Feed" href="comments/feed/">
-
     <link rel="stylesheet" id="simple_tooltips_style-css" href="{{ asset('lend-bit.dev/public/css/zebra_tooltips.css')}}" type="text/css" media="all">
     <link rel="stylesheet" id="pdfemb-gutenberg-block-backend-js-css"  href="{{ asset('lend-bit.dev/public/css/pdfemb-blocks.css')}}" type="text/css" media="all">
     <link rel="stylesheet" id="affwp-forms-css" href="{{ asset('lend-bit.dev/public/css/forms.min.css')}}" type="text/css" media="all">
@@ -48,5 +46,4 @@
     <link rel="stylesheet" id="cf7cf-style-css" href="{{ asset('lend-bit.dev/public/css/style.css')}}" type="text/css" media="all">
     <link rel="stylesheet" id="redux-custom-fonts-css-css" href="{{ asset('lend-bit.dev/public/css/fonts.css')}}" type="text/css" media="all">
     <link rel="stylesheet" id="templatera_inline-css" href="{{ asset('lend-bit.dev/public/css/front_style.css')}}" type="text/css" media="all">
-
 </head>

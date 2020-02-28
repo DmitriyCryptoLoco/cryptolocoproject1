@@ -14,9 +14,6 @@ class UserWallet
         'Id', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
     ];
 
-    /**
-     * @var array
-     */
 
     /**
      * The attributes that should be hidden for arrays.
@@ -26,6 +23,10 @@ class UserWallet
 
     protected $hidden = [
         'Id', 'ETHBalance', 'BTCBalance', 'LTCBalance', 'LocalBalance', 'Walletname'
+    ];
+
+    protected $paymentstatus = [
+        'active', 'pending', 'complite'
     ];
 
     public function Withdraw($role)

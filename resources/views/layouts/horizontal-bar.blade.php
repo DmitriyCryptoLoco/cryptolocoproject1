@@ -52,20 +52,15 @@
                             </li>
 
                             <li class="{{ request()->is('uikits/*') ? 'active' : '' }}">
-
                                 <div>
-
-
                                     <div>
                                         <label class="toggle" for="drop-2">
-
-UI kits
+                                        UI kits
                                         </label>
                                         <a href="#">
                                             <i class="nav-icon mr-2 i-Suitcase"></i> UI kits
                                         </a><input type="checkbox" id="drop-2">
                                         <ul>
-
                                            <li class="nav-item">
                     <a class="{{ Route::currentRouteName()=='alerts' ? 'open' : '' }}" href="{{route('alerts')}}">
                             <i class="nav-icon mr-2 i-Bell1"></i>

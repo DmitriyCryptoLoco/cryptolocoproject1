@@ -1899,17 +1899,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/lendbit/public_html/lend-bit.dev/resources/js/components/ChatBoxComponent.vue: Expecting Unicode escape sequence \\uXXXX (66:42)\n\n\u001b[0m \u001b[90m 64 | \u001b[39m                            id\u001b[33m:\u001b[39m message\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 65 | \u001b[39m                            senderId\u001b[33m:\u001b[39m message\u001b[33m.\u001b[39msenderId\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 66 | \u001b[39m                            text\u001b[33m:\u001b[39m message\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m[\u001b[32m'parts'\u001b[39m\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m][\u001b[35m0\u001b[39m]\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m[\u001b[32m'payload'\u001b[39m\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m][\u001b[32m'content'\u001b[39m]\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 67 | \u001b[39m                            timestamp\u001b[33m:\u001b[39m message\u001b[33m.\u001b[39mcreatedAt\u001b[0m\n\u001b[0m \u001b[90m 68 | \u001b[39m                    })\u001b[0m\n\u001b[0m \u001b[90m 69 | \u001b[39m                    }\u001b[33m,\u001b[39m\u001b[0m\n    at Parser.raise (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:7017:17)\n    at Parser.readWord1 (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:8211:16)\n    at Parser.readWord (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:8240:23)\n    at Parser.getTokenFromCode (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:7719:16)\n    at Parser.nextToken (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:7241:12)\n    at Parser.next (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:7170:10)\n    at Parser.eat (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:7175:12)\n    at Parser.parseObjectProperty (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10120:14)\n    at Parser.parseObjPropValue (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10146:101)\n    at Parser.parseObjectMember (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10070:10)\n    at Parser.parseObj (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9991:25)\n    at Parser.parseExprAtom (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9616:28)\n    at Parser.parseExprSubscripts (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9259:23)\n    at Parser.parseMaybeUnary (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9239:21)\n    at Parser.parseExprOps (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9109:23)\n    at Parser.parseMaybeConditional (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9082:23)\n    at Parser.parseMaybeAssign (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9037:21)\n    at Parser.parseExprListItem (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10327:18)\n    at Parser.parseCallExpressionArguments (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9440:22)\n    at Parser.parseSubscript (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9346:31)\n    at Parser.parseSubscripts (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9276:19)\n    at Parser.parseExprSubscripts (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9265:17)\n    at Parser.parseMaybeUnary (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9239:21)\n    at Parser.parseExprOps (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9109:23)\n    at Parser.parseMaybeConditional (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9082:23)\n    at Parser.parseMaybeAssign (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9037:21)\n    at Parser.parseExpression (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:8989:23)\n    at Parser.parseStatementContent (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10819:23)\n    at Parser.parseStatement (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10690:17)\n    at Parser.parseBlockOrModuleBlockBody (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:11264:25)\n    at Parser.parseBlockBody (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:11251:10)\n    at Parser.parseBlock (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:11235:10)\n    at Parser.parseFunctionBody (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10252:24)\n    at Parser.parseArrowExpression (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:10209:10)\n    at Parser.parseExprAtom (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9547:18)\n    at Parser.parseExprSubscripts (/home/lendbit/public_html/lend-bit.dev/node_modules/@babel/parser/lib/index.js:9259:23)");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ChatBoxComponent.vue?vue&type=style&index=0&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ChatBoxComponent.vue?vue&type=style&index=0&lang=css& ***!
@@ -21546,26 +21535,23 @@ channel.listen('.my-event', function (data) {
 /*!******************************************************!*\
   !*** ./resources/js/components/ChatBoxComponent.vue ***!
   \******************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ChatBoxComponent_vue_vue_type_template_id_05a87756___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ChatBoxComponent.vue?vue&type=template&id=05a87756& */ "./resources/js/components/ChatBoxComponent.vue?vue&type=template&id=05a87756&");
-/* harmony import */ var _ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ChatBoxComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _ChatBoxComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ChatBoxComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/ChatBoxComponent.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ChatBoxComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ChatBoxComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/ChatBoxComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  script,
   _ChatBoxComponent_vue_vue_type_template_id_05a87756___WEBPACK_IMPORTED_MODULE_0__["render"],
   _ChatBoxComponent_vue_vue_type_template_id_05a87756___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -21579,22 +21565,6 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/ChatBoxComponent.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ChatBoxComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ChatBoxComponent.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ChatBoxComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 

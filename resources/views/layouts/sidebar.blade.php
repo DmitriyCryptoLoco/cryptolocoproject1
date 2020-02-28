@@ -1,7 +1,6 @@
 <div class="side-content-wrap">
     <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true">
         <ul class="navigation-left">
-
             <li class="nav-item {{ request()->is('/dashboard/interest/*') ? 'active' : '' }}" data-item="dashboard">
                 <a class="nav-item-hold" href="/dashboard/interest/index">
                     <i class="nav-icon i-Bar-Chart"></i>

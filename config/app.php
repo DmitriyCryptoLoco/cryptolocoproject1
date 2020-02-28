@@ -166,9 +166,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Spatie\Permission\PermissionServiceProvider::class,
-        UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class
+//        Alexusmai\LaravelFileManager\FileManagerServiceProvider::class,
     ],
 
     /*

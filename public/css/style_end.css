@@ -7489,7 +7489,7 @@ dd {
 }
 
 .rd_profile_testimonial .tm_quote:after {
-    content: "“";
+    content: "â€œ";
     position: absolute;
     font-size: 33px;
     top: -3px;

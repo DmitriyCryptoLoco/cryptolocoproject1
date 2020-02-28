@@ -18,12 +18,12 @@
 
                         <div class="">
                             <a title="Compact Sidebar" href="{{route('compact')}}" class="btn btn-primary"> Compact
-                Sidebar </a>
-                <a title="Horizontal Layout" href="{{route('horizontal')}}" class="btn btn-primary">
-                    Horizontal Layout </a>
-            </div>
-        </div>
-    </div> --}}
+                        Sidebar </a>
+                            <a title="Horizontal Layout" href="{{route('horizontal')}}" class="btn btn-primary">
+                                Horizontal Layout </a>
+                        </div>
+                    </div>
+                </div> --}}
 
                 <div class="card-body">
                     <div class="layouts">

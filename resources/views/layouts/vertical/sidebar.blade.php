@@ -8,7 +8,6 @@
     </div>
     <!-- user -->
     <div class="scroll-nav" data-perfect-scrollbar data-suppress-scroll-x="true">
-
         <!-- user close -->
         <!-- side-nav start -->
         <div class="side-nav">

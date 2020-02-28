@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Blockchain;
 
 
-class PaymentController extends Controller
+class BlockChainController extends Controller
 {
     /**
      * Create a new controller instance.

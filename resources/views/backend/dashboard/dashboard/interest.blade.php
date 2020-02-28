@@ -301,12 +301,11 @@
             </div>
         </div>
     </div>
-
-@endsection
+ @endsection
 @section('page-js')
-    <script src="{{asset('lend-bit.dev/assets/js/vendor/echarts.min.js')}}"></script>
-    <script src="{{asset('lend-bit.dev/assets/js/es5/echart.options.min.js')}}"></script>
-    <script src="{{asset('lend-bit.dev/assets/js/vendor/datatables.min.js')}}"></script>
-    <script src="{{asset('lend-bit.dev/assets/js/es5/dashboard.v4.script.js')}}"></script>
+    <script src="{{asset('lend-bit.dev/public/assets/js/vendor/echarts.min.js')}}"></script>
+    <script src="{{asset('lend-bit.dev/public/assets/js/es5/echart.options.min.js')}}"></script>
+    <script src="{{asset('lend-bit.dev/public/assets/js/vendor/datatables.min.js')}}"></script>
+    <script src="{{asset('lend-bit.dev/public/assets/js/es5/dashboard.script.js')}}"></script>
 @endsection
 
