@@ -6,8 +6,8 @@ namespace App\Role;
  * Class UserRole
  * @package App\Role
  **/
-
-class UserRole {
+class UserRole
+{
 
     const ROLE_ADMIN = 'ROLE_ADMIN';
     const ROLE_SUPPORT = 'ROLE_SUPPORT';
@@ -50,6 +50,12 @@ class UserRole {
     /***
      * @return array
      */
+
+    public static function tablet($table)
+    {
+        $table->foreign('author_id')->references('id')->on('users');
+    }
+
     public static function getRoleList()
     {
         return [

@@ -97,6 +97,12 @@ class User extends Authenticatable
         return true;
     }
 
+
+    public function tablet($table)
+    {
+        $table->foreign('author_id')->references('id')->on('users');
+    }
+
     /**
      * @return array
      */
@@ -113,4 +119,3 @@ class User extends Authenticatable
 
 }
 
-// Commit //// Commit //// Commit //

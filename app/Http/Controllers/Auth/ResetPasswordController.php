@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers\Auth;
 
+use DB;
+use Carbon;
 use App\Http\Controllers\Controller;
 use http\Env\Request;
 use Illuminate\Foundation\Auth\ResetsPasswords;
-use DB;
-use Carbon;
 
-class ResetPasswordController extends Controller
-{
+class ResetPasswordController extends Controller {
     /*
     |--------------------------------------------------------------------------
     | Password Reset Controller

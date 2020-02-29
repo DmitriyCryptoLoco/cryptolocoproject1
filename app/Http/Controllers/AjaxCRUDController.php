@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Blockchain;
+use Illuminate\Http\Request;
 
 
 class AdminAjaxPermissions extends Controller
@@ -16,9 +16,28 @@ class AdminAjaxPermissions extends Controller
      */
     public function __construct()
     {
-        //   $this->middleware('auth');
-        //  $this->middleware('roles');
+
     }
 
+
+    public function create()
+    {
+
+    }
+
+    public function delete()
+    {
+
+    }
+
+    public function update()
+    {
+
+    }
+
+    public function read()
+    {
+
+    }
 
 }

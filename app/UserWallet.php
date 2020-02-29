@@ -29,6 +29,12 @@ class UserWallet
         'active', 'pending', 'complite'
     ];
 
+    public function tablet($table)
+    {
+        $table->foreign('author_id')->references('id')->on('users');
+    }
+
+
     public function Withdraw($role)
     {
 

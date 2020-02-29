@@ -11,8 +11,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 
-class RegisterController extends Controller
-{
+class RegisterController extends Controller {
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -38,6 +37,7 @@ class RegisterController extends Controller
      *
      * @return void
      */
+
     public function __construct()
     {
         $this->middleware('guest');
@@ -64,8 +64,8 @@ class RegisterController extends Controller
      * @param  array $data
      * @return \App\User
      */
-    protected function create(array $data)
-    {
+
+    protected function create(array $data){
         $res = "";
         $str = rand();
         $result = sha1($str);
@@ -79,6 +79,7 @@ class RegisterController extends Controller
             'LTCBalance' => "LTCBalance",
             'LocalBalance' => "LocalBalance",
             'Walletname' => $result,
+            'image' => "filename.jpg"
         ]);
 
         Mail::to($data['email'])->send(new WelcomeMail($user));

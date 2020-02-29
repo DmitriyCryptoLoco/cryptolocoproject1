@@ -7,10 +7,11 @@ Auth::guard();
 /* Front-End-Routes */
 // Route::group(function(){      })->middleware('check_user_role:'.\App\Role\UserRole::ROLE_FINANCE.'', 'auth');
 
+
+Route::get('/api/payment/blockchain/check', 'PaymentController@check')->name('check');
+Route::get('/api/payment/blockchain/makepayment', 'PaymentController@makepayment')->name('makepayment');
+
 Route::get('/', 'FrontendPagesController@index')->name('index');
-Route::get('/api/payment/blockchain/check', 'BlockChainController@check')->name('check');
-//Route::get('/api/payment/blockchain/makepayment', 'BlockChainController@makepayment')->name('makepayment');
-Route::get('/contacts', 'FrontendPagesController@contacts')->name('contacts');
 Route::get('/contacts', 'FrontendPagesController@contacts')->name('contacts');
 Route::get('/affiliate', 'FrontendPagesController@affiliate')->name('affiliate');
 Route::get('/privacy', 'FrontendPagesController@privacy')->name('privacy');
@@ -139,14 +140,12 @@ Route::get('/others/search-result', 'DashboardController@search-result')->name('
 // Route Costume Data                           //
 
 Route::get("horizontal-bar/dashboard/dashboard1");
-// Profile Settings                             //
 Route::get('large-compact-sidebar/dashboard/dashboard1', 'DashboardController@compact')->name('compact');
 Route::get('others/search-result', 'DashboardController@search-result')->name('search-result');
-// Profile Settings                             //
 
 Route::get('/Chatkit', 'ChatkitController@index');
 Route::get('/Chatkit', 'ChatkitController@join');
-Route::get('/chat', 'ChatkitController@chat')->name('chat');
+Route::get('/Сhat', 'ChatkitController@chat')->name('chat');
 Route::get('/logout', 'ChatkitController@logout')->name('logout');
 Route::get("/parse_there_json_data@index");
 
