@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use http\Env\Request;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\DB;
 
 class LoginController extends Controller
 {
@@ -39,36 +40,22 @@ class LoginController extends Controller
     }
 
 
-    protected function redirectTo()
+    use AuthenticatesUsers;
+
+    /**
+     * Logout, Clear Session, and Return.
+     *
+     * @return void
+     */
+
+    public function logout()
     {
-        if (Route::getRoutes()->match(Request::create(\URL::previous()))->getName() == "cong.reg") {
-            return (Request::create(\URL::previous())->getRequestUri());
-        }
-        return $this->redirectTo;
-    }
+        $user = Auth::user();
+        Log::info('User Logged Out. ', [$user]);
+        Auth::logout();
+        Session::flush();
 
-
-    public function login(Request $request)
-    {
-        $user = DB::table('users')->where('email', '=', $request->email)->first();
-
-        if (count($user) < 1) {
-            return redirect()->back()->withErrors(['email' => trans('User does not exist')]);
-        }
-
-        DB::table('password_resets')->insert([
-            'email' => $request->email,
-            'token' => str_random(60),
-            'created_at' => Carbon::now()
-        ]);
-
-        $tokenData = DB::table('password_resets')->where('email', $request->email)->first();
-
-        if ($this->sendResetEmail($request->email, $tokenData->token)) {
-            return redirect()->back()->with('status', trans('A reset link has been sent to your email address.'));
-        } else {
-            return redirect()->back()->withErrors(['error' => trans('A Network Error occurred. Please try again.')]);
-        }
+        return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/');
     }
 
     public function sendResetEmail($email, $token)

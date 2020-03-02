@@ -37,7 +37,7 @@ Route::get('/our-rates', 'FrontendPagesController@our-rates')->name('our-rates')
 Route::get('/blog', 'FrontendPagesController@blog')->name('blog');
 Route::get('/refer-a-friend', 'FrontendPagesController@refer-a-friend')->name('refer-a-friend');
 Route::get('/help-center', 'FrontendPagesController@help-center')->name('help-center');
-Route::get('/crypto-interest-account', 'FrontendPagesController@crypto-interest-account')->name('crypto-interest-account');
+Route::get('/crypto-interest-account', 'FrontendPagesController@cryptointerestaccount')->name('cryptointerestaccount');
 Route::get('/earn-crypto', 'FrontendPagesController@earn-crypto')->name('earn-crypto');
 Route::get('/how-to-get-a-bitcoin-loan', 'FrontendPagesController@how-to-get-a-bitcoin-loan')->name('how-to-get-a-bitcoin-loan');
 Route::get('/earn-bitcoin-interest', 'FrontendPagesController@earn-bitcoin-interest')->name('earn-bitcoin-interest');
