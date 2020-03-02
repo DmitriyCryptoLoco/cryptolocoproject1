@@ -74,30 +74,37 @@
                 </div>
                 <div class="social-links"><a id="social-twitter" href="https://twitter.com/therealblockfi"
                                              target="_blank" title="Follow @therealblockfi on twitter"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-twitter.svg" alt="Twitter"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-twitter.svg"
+                                alt="Twitter"
                                 class="sm-icon-twitter white lazyloading" data-was-processed="true"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-twitter-white.svg" alt="Twitter"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-twitter-white.svg"
+                                alt="Twitter"
                                 class="sm-icon-twitter dark"> </a> <a id="social-linkedin"
                                                                       href="https://www.linkedin.com/company/blockfi"
                                                                       target="_blank"
                                                                       title="Find BlockFi on LinkedIn"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-linkedin.svg" alt="LinkedIn"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-linkedin.svg"
+                                alt="LinkedIn"
                                 class="sm-icon-linkedin white lazyloading" data-was-processed="true"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-linkedin-white.svg" alt="LinkedIn"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/sm-icon-linkedin-white.svg"
+                                alt="LinkedIn"
                                 class="sm-icon-linkedin dark"> </a> <a id="social-telegram"
                                                                        href="https://t.me/joinchat/Kv7PilHo-dM7VnxNWt-yUQ"
                                                                        target="_blank"
                                                                        title="Follow BlockFi on Telegram"> <img
                                 src="https://lend-bit.dev/lend-bit.dev/resources/images/telegram.svg" alt="Telegram"
                                 class="sm-icon-telegram white lazyloading" data-was-processed="true"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/telegram-white.svg" alt="Telegram"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/telegram-white.svg"
+                                alt="Telegram"
                                 class="sm-icon-telegram white dark"> </a> <a id="social-facebook"
                                                                              href="https://www.facebook.com/BlockFi/"
                                                                              target="_blank"
                                                                              title="Follow BlockFi on Telegram">
-                        <img src="https://lend-bit.dev/lend-bit.dev/resources/images/facebook-logo-button.svg" alt="Facebook"
+                        <img src="https://lend-bit.dev/lend-bit.dev/resources/images/facebook-logo-button.svg"
+                             alt="Facebook"
                              class="sm-icon-facebook white lazyloading" data-was-processed="true"> <img
-                                src="https://lend-bit.dev/lend-bit.dev/resources/images/facebook-logo-button-white.svg" alt="Facebook"
+                                src="https://lend-bit.dev/lend-bit.dev/resources/images/facebook-logo-button-white.svg"
+                                alt="Facebook"
                                 class="sm-icon-facebook dark"> </a></div>
             </div>
             <div class="widget_wrap">
