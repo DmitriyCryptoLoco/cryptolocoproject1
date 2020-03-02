@@ -18,18 +18,14 @@
 
     <form action="">
         <ul>
-            <li><input type="text" value="">1</li>
-            <li><input type="text" value="">2</li>
-            <li><input type="text" value="">3</li>
-            <li><input type="text" value="">4</li>
-            <li><input type="text" value="">5</li>
-            <li><input type="text" value="">6</li>
-            <li><input type="text" value="">7</li>
-            <li><input type="text" value="">8</li>
-            <li><input type="text" value="">9</li>
-            <li><input type="text" value="">10</li>
-            <li><input type="text" value="">11</li>
-            <li><input type="text" value="">12</li>
+            <li><input type="text" value="" name="first-name">1</li>
+            <li><input type="text" value="" name="last-name">2</li>
+            <li><input type="text" value="" name="blockchainwallet-name">3</li>
+            <li><input type="text" value="" name="setting1-name">>4</li>
+            <li><input type="text" value="" name="setting2-name">5</li>
+            <li><input type="text" value="" name="setting3-name">6</li>
+            <li><input type="text" value="" name="setting4-name">7</li>
+            <li><input type="text" value="" name="setting5-name">8</li>
         </ul>
     </form>
 

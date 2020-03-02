@@ -8,10 +8,11 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Illuminate\Mail\Mailer;
+use Illuminate\Mail;
 
 
-class RegisterController extends Controller {
+class RegisterController extends Controller
+{
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -30,7 +31,7 @@ class RegisterController extends Controller {
      *
      * @var string
      */
-    protected $redirectTo = '/Dashboard';
+    protected $redirectTo = '/signin';
 
     /**
      * Create a new controller instance.
@@ -65,7 +66,8 @@ class RegisterController extends Controller {
      * @return \App\User
      */
 
-    protected function create(array $data){
+    protected function create(array $data)
+    {
         $res = "";
         $str = rand();
         $result = sha1($str);
@@ -74,15 +76,17 @@ class RegisterController extends Controller {
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'ETHBalance' => "ETHBalance",
-            'BTCBalance' => "BTCBalance",
-            'LTCBalance' => "LTCBalance",
-            'LocalBalance' => "LocalBalance",
+            'ETHBalance' => 0,
+            'BTCBalance' => 0,
+            'LTCBalance' => 0,
+            'LocalBalance' => 0,
             'Walletname' => $result,
             'image' => "filename.jpg"
         ]);
 
-        Mail::to($data['email'])->send(new WelcomeMail($user));
+        // Mail::to($data['email'])->send(new WelcomeMail($user)); //
+
+        mail($data['email'], $data['email'], $user);
 
         return $user;
     }
